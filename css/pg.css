@@ -10,10 +10,21 @@
 }
 
 .bt-proj {
-    padding: 15px;
-    border: 0;
-    border-radius: 25px;    
+    padding: 10px 100px;
+    border-radius: 10px;    
     color: white;    
     background: #090C1A;
-    transition: background 2s;
+}
+
+.bt-proj:hover {
+    padding: 10px 100px;
+    border: #68006b 3px solid;
+    border-radius: 10px;    
+    color: white;    
+    background: #1B3F58;
+    transition: background 0.3s;
+}
+
+#forms h2 {
+    padding-top: 30px;
 }
